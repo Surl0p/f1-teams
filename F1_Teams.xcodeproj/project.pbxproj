@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6DDF9C7B2F5B63CA00FB4CB3 /* Atlantis in Frameworks */ = {isa = PBXBuildFile; productRef = 6DDF9C7A2F5B63CA00FB4CB3 /* Atlantis */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		6DBE9C822F3520C50023D0A1 /* F1_Teams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F1_Teams.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DDF9C7B2F5B63CA00FB4CB3 /* Atlantis in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 			);
 			name = F1_Teams;
 			packageProductDependencies = (
+				6DDF9C7A2F5B63CA00FB4CB3 /* Atlantis */,
 			);
 			productName = F1_Teams;
 			productReference = 6DBE9C822F3520C50023D0A1 /* F1_Teams.app */;
@@ -107,6 +113,9 @@
 			);
 			mainGroup = 6DBE9C792F3520C50023D0A1;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				6DDF9C792F5B63CA00FB4CB3 /* XCRemoteSwiftPackageReference "atlantis" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 6DBE9C832F3520C50023D0A1 /* Products */;
 			projectDirPath = "";
@@ -351,6 +360,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6DDF9C792F5B63CA00FB4CB3 /* XCRemoteSwiftPackageReference "atlantis" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ProxymanApp/atlantis";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.34.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6DDF9C7A2F5B63CA00FB4CB3 /* Atlantis */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6DDF9C792F5B63CA00FB4CB3 /* XCRemoteSwiftPackageReference "atlantis" */;
+			productName = Atlantis;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6DBE9C7A2F3520C50023D0A1 /* Project object */;
 }

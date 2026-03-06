@@ -11,6 +11,18 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
 
+    // MARK: Navigation Style
+    private func applyNavigationStyle(to navigationController: UINavigationController) {
+        let appearance = UINavigationBarAppearance()
+        appearance.configureWithTransparentBackground()
+        appearance.shadowColor = nil
+
+        navigationController.navigationBar.standardAppearance = appearance
+        navigationController.navigationBar.scrollEdgeAppearance = appearance
+        navigationController.navigationBar.compactAppearance = appearance
+        navigationController.navigationBar.isTranslucent = true
+    }
+
     // создание первого экрана приложения
     func scene(
         _ scene: UIScene,
@@ -19,11 +31,32 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     ) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
 
-        let window = UIWindow(windowScene: windowScene)
-        let rootVC = F1TeamsViewController()
-        let navVC = UINavigationController(rootViewController: rootVC)
+        let tabBarController = UITabBarController()
 
-        window.rootViewController = navVC
+        let teamsVC = F1TeamsViewController()
+        let teamsNav = UINavigationController(rootViewController: teamsVC)
+        teamsNav.navigationBar.prefersLargeTitles = false
+        applyNavigationStyle(to: teamsNav)
+        teamsNav.tabBarItem = UITabBarItem(
+            title: "Команды",
+            image: UIImage(systemName: "flag.checkered"),
+            selectedImage: nil
+        )
+
+        let championshipVC = ChampionshipYearPickerViewController()
+        let championshipNav = UINavigationController(rootViewController: championshipVC)
+        championshipNav.navigationBar.prefersLargeTitles = false
+        applyNavigationStyle(to: championshipNav)
+        championshipNav.tabBarItem = UITabBarItem(
+            title: "Пилоты",
+            image: UIImage(systemName: "list.number"),
+            selectedImage: nil
+        )
+
+        tabBarController.viewControllers = [teamsNav, championshipNav]
+
+        let window = UIWindow(windowScene: windowScene)
+        window.rootViewController = tabBarController
         window.makeKeyAndVisible()
         self.window = window
     }
@@ -50,4 +83,3 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
 }
-
