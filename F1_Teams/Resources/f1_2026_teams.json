@@ -1,0 +1,114 @@
+{
+  "teams": [
+    {
+      "name": "McLaren",
+      "brandColorHex": "#FF8700",
+      "logoName": "mclaren-logo",
+      "carImageName": "mclaren-car",
+      "drivers": [
+        { "name": "Lando Norris", "imageName": "lando-norris", "quote": "I'M READY TO BRING THE FIGHT TO EVERYONE." },
+        { "name": "Oscar Piastri", "imageName": "oscar-piastri", "quote": "I LIKE CARS, I LIKE RACING, BUT I THINK THE COMPETITION SIDE OF THINGS IS PROBABLY THE NUMBER ONE THING." }
+      ]
+    },
+    {
+      "name": "Ferrari",
+      "brandColorHex": "#DC0000",
+      "logoName": "ferrari-logo",
+      "carImageName": "ferrari-car",
+      "drivers": [
+        { "name": "Charles Leclerc", "imageName": "charles-leclerc", "quote": "WHATEVER THE POSITION IS AT STAKE, YOU'VE GOT TO DO YOUR ABSOLUTE BEST AS A DRIVER WHETHER YOU'RE FIGHTING FOR THE FIFTH, FOURTH OR FIRST POSITION." },
+        { "name": "Lewis Hamilton", "imageName": "lewis-hamilton", "quote": "DRIVING A SCUDERIA FERRARI HP CAR FOR THE FIRST TIME WAS ONE OF THE BEST FEELINGS OF MY LIFE." }
+      ]
+    },
+    {
+      "name": "Red Bull Racing",
+      "brandColorHex": "#1E41FF",
+      "logoName": "red-bull-logo",
+      "carImageName": "red-bull-car",
+      "drivers": [
+        { "name": "Max Verstappen", "imageName": "max-verstappen", "quote": "I HATE LOSING!" },
+        { "name": "Isack Hadjar", "imageName": "isack-hadjar", "quote": "I’M SOMEONE WHO FOUGHT HIS WAY TO F1 THE HARD WAY." }
+      ]
+    },
+    {
+      "name": "Mercedes",
+      "brandColorHex": "#00D2BE",
+      "logoName": "mercedes-logo",
+      "carImageName": "mercedes-car",
+      "drivers": [
+        { "name": "George Russell", "imageName": "george-russell", "quote": "ON GEORGE, YOU CAN RELY ON HIM WHEN IT COMES TO LAP TIMES AND RACING, SO SPIRITS ARE HIGH." },
+        { "name": "Kimi Antonelli", "imageName": "kimi-antonelli", "quote": "RACING FOR MERCEDES IS A BIG RESPONSIBILITY, BUT AT THE SAME TIME IT’S A GREAT OPPORTUNITY AND A PRIVILEGE." }
+      ]
+    },
+    {
+      "name": "Aston Martin",
+      "brandColorHex": "#006F62",
+      "logoName": "aston-martin-logo",
+      "carImageName": "aston-martin-car",
+      "drivers": [
+        { "name": "Fernando Alonso", "imageName": "fernando-alonso", "quote": "I NEVER REGRET ANYTHING." },
+        { "name": "Lance Stroll", "imageName": "lance-stroll", "quote": "WE’VE GROWN SO MUCH AS A TEAM AND THERE’S STILL SO MUCH MORE TO LOOK FORWARD TO." }
+      ]
+    },
+    {
+      "name": "Alpine",
+      "brandColorHex": "#0090FF",
+      "logoName": "alpine-logo",
+      "carImageName": "alpine-car",
+      "drivers": [
+        { "name": "Pierre Gasly", "imageName": "pierre-gasly", "quote": "THE MOMENT I LOVE THE MOST IS WHENEVER I GET IN THAT CAR, FIGHTING THE BEST 19 DRIVERS IN THE WORLD, AND THIS EXERCISE OF BEATING THEM." },
+        { "name": "Franco Colapinto", "imageName": "franco-colapinto", "quote": "I WILL GIVE IT MY ALL TO DELIVER THE BEST POSSIBLE RESULTS." }
+      ]
+    },
+    {
+      "name": "Haas",
+      "brandColorHex": "#B6BABD",
+      "logoName": "haas-logo",
+      "carImageName": "haas-car",
+      "drivers": [
+        { "name": "Esteban Ocon", "imageName": "esteban-ocon", "quote": "TOUGH RACING IS ALWAYS COOL TO ME. RACING SIDE-BY-SIDE, BEING VERY CLOSE, THAT’S WHAT RACING IS ALL ABOUT." },
+        { "name": "Oliver Bearman", "imageName": "oliver-bearman", "quote": "I’M A COMPETITIVE GUY, I LIKE TO BE GOOD AT EVERYTHING I DO." }
+      ]
+    },
+    {
+      "name": "Racing Bulls",
+      "brandColorHex": "#2A2F9D",
+      "logoName": "racing-bulls-logo",
+      "carImageName": "racing-bulls-car",
+      "drivers": [
+        { "name": "Liam Lawson", "imageName": "liam-lawson", "quote": "I'M NOT HERE TO MAKE FRIENDS. I'M HERE TO WIN - THAT'S WHAT I'M FOCUSED ON DOING." },
+        { "name": "Arvid Lindblad", "imageName": "arvid-lindblad", "quote": "SINCE I STARTED THIS JOURNEY AT FIVE YEARS OLD, IT WAS ALWAYS MY GOAL TO BE IN FORMULA 1 SO IT’S A PROUD MOMENT TO TAKE THIS STEP." }
+      ]
+    },
+    {
+      "name": "Williams",
+      "brandColorHex": "#005AFF",
+      "logoName": "williams-logo",
+      "carImageName": "williams-car",
+      "drivers": [
+        { "name": "Alex Albon", "imageName": "alex-albon", "quote": "I’M READY TO WIN RACES, TO FIGHT FOR A CHAMPIONSHIP." },
+        { "name": "Carlos Sainz", "imageName": "carlos-sainz", "quote": "I ALWAYS PERFORM AT MY BEST WHEN I JUST DON’T CARE ABOUT THE SITUATION AND HAVE A SINGLE MENTALITY THAT IT’S JUST GO FOR IT." }
+      ]
+    },
+    {
+      "name": "Audi",
+      "brandColorHex": "#C6001E",
+      "logoName": "audi-logo",
+      "carImageName": "audi-car",
+      "drivers": [
+        { "name": "Gabriel Bortoleto", "imageName": "gabriel-bortoleto", "quote": "I WANT TO BE ABLE TO FIGHT FOR THINGS AND TO MAKE MY COUNTRY PROUD OF EVERYTHING I CAN ACHIEVE." },
+        { "name": "Nico Hulkenberg", "imageName": "nico-hulkenberg", "quote": "I’M READY TO WIN RACES, TO FIGHT FOR A CHAMPIONSHIP." }
+      ]
+    },
+    {
+      "name": "Cadillac",
+      "brandColorHex": "#153C8A",
+      "logoName": "cadillac-logo",
+      "carImageName": "cadillac-car",
+      "drivers": [
+        { "name": "Sergio Perez", "imageName": "sergio-perez", "quote": "I WANT TO BELIEVE IN HARD WORK, DETERMINATION, AND NEVER GIVING UP." },
+        { "name": "Valtteri Bottas", "imageName": "valtteri-bottas", "quote": "SOMETIMES YOU HAVE TO ACCEPT THAT THINGS DON’T ALWAYS GO YOUR WAY, BUT YOU CAN LEARN FROM EVERY EXPERIENCE." }
+      ]
+    }
+  ]
+}
